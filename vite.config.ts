@@ -13,7 +13,6 @@ export default defineConfig(({ mode }) => {
       tsconfigPaths(),
       mode === 'development' ? checker({ typescript: true }) : null,
     ],
-    base:
-      mode === 'production' ? '/meepshop-frontend-interview-assessment' : '/',
+    base: mode === 'production' ? '/afu-react-editor' : '/',
   }
 })
